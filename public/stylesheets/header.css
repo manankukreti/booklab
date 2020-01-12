@@ -1,0 +1,56 @@
+
+nav{
+    height:65px;
+    background-color: var(--blue);
+    padding:0px 15px;
+    border-bottom:10px solid #2d3f64;
+}
+
+nav .logo{
+    color:#fff;
+    line-height: 65px;
+    font-size:1.5rem;
+}
+
+nav h1, nav .menu, nav ul li{
+    display: inline;
+}
+
+.menu{
+    float:right;
+    line-height: 65px;
+}
+
+.menu a{
+    color:#fff;
+    margin:0px 8px;
+}
+
+.recent{
+    padding:20px 20px;
+}
+
+.recent h1{
+    font-size:1.5rem;
+    color:var(--blue);
+    margin-left:10px;
+}
+
+.books-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding:20px 0px;
+
+}
+
+.books-container .book{
+    width:25%;
+    max-width: 200px;
+    height:auto;
+    margin:10px 10px;
+
+}
+.book img{
+    width:100%;
+    height: auto;
+}
